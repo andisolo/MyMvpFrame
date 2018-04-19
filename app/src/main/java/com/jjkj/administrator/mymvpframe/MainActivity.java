@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, "Toast", Toast.LENGTH_SHORT).show();
                 TextView textView = new TextView(MainActivity.this);
+                textView.setText("这是新的文本内容");
             }
         });
     }
