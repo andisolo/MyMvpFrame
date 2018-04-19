@@ -3,6 +3,7 @@ package com.jjkj.administrator.mymvpframe;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Toast;
 
 /**
  * @author Administrator
@@ -16,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.main_text).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Toast.makeText(MainActivity.this, "Toast", Toast.LENGTH_SHORT).show();
             }
         });
     }
